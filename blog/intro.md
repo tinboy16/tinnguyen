@@ -33,8 +33,8 @@ Xin chào! Tôi là Nguyễn Thương Tín, Sở thích thiết kế mạch đi�
 
 ## Kỹ Năng
 
-- **Ngôn Ngữ Lập Trình:** python, C++, C#
-- **Kỹ Năng Kỹ Thuật:** Linux, Server, Collaboration, Communication
+- **Ngôn Ngữ Lập Trình:** python, C++, C#, js
+- **Kỹ Năng Kỹ Thuật:** Linux, Server, Collaboration, Communication, NetWork, Arduino, Validator
 - **Ngoại Ngữ:** Tiếng Anh
 
 ## Dự Án Cá Nhân

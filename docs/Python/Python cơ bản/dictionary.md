@@ -29,12 +29,14 @@ __Cú pháp:__
 
 VD:
 ```python
-data1={'Id':100, 'Ten':'Thanh', 'Nghenghiep':'Developer'}
-data2={'Id':101, 'Ten':'Chinh', 'Nghenghiep':'Trainer'}
-print "Id cua nhan vien dau tien la",data1['Id']
-print "Id cua nhan vien thu hai la",data2['Id']
-print "Ten cua nhan vien dau tien la:",data1['Ten']
-print "Nghe nghiep cua nhan vien thu hai la:",data2['Nghenghiep']
+data1 = {'Id': 100, 'Ten': 'Thanh', 'Nghenghiep': 'Developer'}
+data2 = {'Id': 101, 'Ten': 'Chinh', 'Nghenghiep': 'Trainer'}
+
+print("Id của nhân viên đầu tiên là", data1['Id'])
+print("Id của nhân viên thứ hai là", data2['Id'])
+print("Tên của nhân viên đầu tiên là:", data1['Ten'])
+print("Nghề nghiệp của nhân viên thứ hai là:", data2['Nghenghiep'])
+
 ```
 
 ## Cập nhật Dictionary
@@ -47,8 +49,8 @@ data2={'Id':101, 'Ten':'Chinh', 'Nghenghiep':'Trainer'}
 data1['Nghenghiep']='Manager' # sửa
 data2['Mucluong']=17000000    # Thêm mới
 data1['Mucluong']=12000000    # Them mới
-print data1
-print data2
+print (data1)
+print (data2)
 ```
 
 ## Xóa phần tử Dictionary
@@ -67,7 +69,7 @@ VD:
 ```python
 data={100:'Hoang', 101:'Thanh', 102:'Nam'}
 del data[102]
-print data
+print (data)
 del data
 
 #KQ
