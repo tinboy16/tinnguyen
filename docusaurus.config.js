@@ -141,18 +141,26 @@ const config = {
     plugins: [
         'docusaurus-plugin-sass',
         async function disableUsedExports() {
-            return {
-                name: 'disable-used-exports',
-                configureWebpack() {
-                    return {
-                        optimization: {
-                            usedExports: false
-                        }
-                    }
+          return {
+            name: 'disable-used-exports',
+            configureWebpack() {
+              return {
+                optimization: {
+                  usedExports: false
                 }
+              }
             }
+          }
         },
-    ],
+        [
+          '@docusaurus/plugin-google-gtag',
+          {
+            trackingID: 'G-9X3YKECFCL',
+            anonymizeIP: true, 
+          }
+        ],
+      ],
+      
 
     themes: [
         [
