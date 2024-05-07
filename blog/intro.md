@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+authors: [tinnguyen]
+tags: [Blog, Hello_World, VN]
 ---
 
 # Giới Thiệu Cá Nhân
