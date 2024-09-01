@@ -73,6 +73,11 @@ const config = {
                         label: 'Get Started',
                     },
                     {
+                      href:     '/blog/intro',  // set this
+                      position: 'left',
+                      label: 'Blog',
+                  },
+                    {
                         href:             'https://github.com/tinboy16/',  // set this
                         label: 'GitHub',
                         position: 'right',
