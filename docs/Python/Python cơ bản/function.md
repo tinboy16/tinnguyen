@@ -41,7 +41,7 @@ VD:
 # Phan dinh nghia ham o day
 def printme( str ):
    "Chuoi nay duoc truyen vao trong ham"
-   print str
+   print (str)
    return;
 
 # Bay gio ban co the goi ham printme
@@ -56,12 +56,12 @@ Hàm return(bieu_thuc) được sử dụng để gửi điều khiển quay tr�
 def sum( arg1, arg2 ):
    # Cong hai tham so va tra ve ket qua."
    total = arg1 + arg2
-   print "Ben trong ham : ", total
+   print ("Ben trong ham : ", total)
    return total;
 
 # Bay gio ban co the goi ham sum nay
 total = sum( 10, 20 );
-print "Ben ngoai ham : ", total
+print ("Ben ngoai ham : ", total)
 ```
 
 ## Phân biệt tham số và đối số - argument và parameter
@@ -72,7 +72,7 @@ Có hai kiểu dữ liệu được truyền trong hàm:
 VD:
 ```python
 def addition(x,y): # parameter
-    		print x+y
+    		print (x+y)
 x=15
 addition(x ,10) # argument
 addition(x,x)
@@ -92,7 +92,7 @@ VD:
 ```python
 def sum(a,b):
  	c=a+b
-  print c
+  print (c)
 
 sum(10,20)
 sum(20) # chi co a thieu b
@@ -102,9 +102,9 @@ sum(20) # chi co a thieu b
 
 ```python
 def msg(Id,Ten,Age=21):
-  print Id
-  print Ten
-  print Tuoi
+  print (Id)
+  print (Ten)
+  print (Tuoi)
   return
 
 msg(Id=100,Ten='Hoang',Age=20)
@@ -114,8 +114,8 @@ msg(Id=101,Ten='Thanh') # khong loi vi co mac dinh
 ### Tham số từ khóa
 ```python
 def msg(id,name):
-  print id
-  print ten
+  print (id)
+  print (ten)
   return
 
 msg(id=100,name='Hoang')
@@ -145,7 +145,7 @@ VD:
 square=lambda x1: x1*x1
 
 #Goi square nhu la mot ham
-print "Binh phuong cua so la",square(10)
+print ("Binh phuong cua so la",square(10))
 ```
 
 ## Nguồn

@@ -9,10 +9,9 @@ Key và value được phân biệt riêng rẽ bởi một dấu hai chấm `(:
 VD:
 ```python
 data={100:'Hoang', 101:'Nam', 102:'Binh'}
-print data
+print (data)
 
-# KQ
-{100: 'Hoang', 101: 'Nam', 102: 'Binh'}
+# Bấm play để ra kết quả
 ```
 
 ## Các thuộc tính của key
@@ -72,8 +71,7 @@ del data[102]
 print (data)
 del data
 
-#KQ
-{100: 'Hoang', 101: 'Thanh'}
+#Bấm play để xem kết quả
 ```
 
 ## Các hàm hỗ trợ (xem thêm docs)
