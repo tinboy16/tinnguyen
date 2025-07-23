@@ -123,12 +123,3 @@ else:
 
 [http://vietjack.com/python/cu\_phap\_python\_co\_ban.jsp](http://vietjack.com/python/cu_phap_python_co_ban.jsp)
 
-```
-
----
-
-👉 Bro chỉ cần lưu file này lại dưới tên `python-syntax.md` tại:
-
-```
-
-/docs/Python/python-co-ban/python-syntax.md
