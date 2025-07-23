@@ -1,5 +1,4 @@
-# Tổng quan về Python
----
+# 🐍 Tổng quan về Python
 ## Tổng quan
 Python là một ngôn ngữ lập trình hướng đối tượng rất thông dụng dùng để viết các tiện ích hệ thống và các đoạn mã trên Internet. Nó cũng được sử dụng như ngôn ngữ kết dính đóng vai trò tích hợp C và C++. Được tạo ra bởi Guido van Rossum tại Amsterdam năm 1990. Python hoàn toàn tạo kiểu động và dùng cơ chế cấp phát bộ nhớ tự động.
 

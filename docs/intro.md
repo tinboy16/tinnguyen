@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Giới Thiệu Cá Nhân
+# 💼 Giới Thiệu Cá Nhân
 
 ## Thông Tin Cơ Bản
 
