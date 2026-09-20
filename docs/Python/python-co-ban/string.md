@@ -1,3 +1,8 @@
+---
+title: Chuỗi trong Python
+sidebar_position: 4
+---
+
 # 🧵 String
 ## 📝 Giới thiệu
 

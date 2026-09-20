@@ -1,3 +1,7 @@
+---
+title: Tuple trong Python
+sidebar_position: 7
+---
 
 # 🐍 Tuple trong Python
 ## 📘 Giới thiệu

@@ -1,3 +1,7 @@
+---
+title: Tổng quan về Lập trình hướng đối tượng
+sidebar_position: 14
+---
 
 # Class và cách khai báo class trong Python
 ## 1. Khai báo class

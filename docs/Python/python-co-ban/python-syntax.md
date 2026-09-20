@@ -1,3 +1,8 @@
+---
+title: Cú pháp Python
+sidebar_position: 2
+---
+
 # 🧾 Cú pháp Python
 
 ## Định danh (identifier) trong Python

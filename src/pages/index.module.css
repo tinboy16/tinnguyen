@@ -1,57 +1,722 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-h1 {
-    font-size: 3.5em;
-    color: var(--ifm-color-primary);
-    margin: 0;
+.home {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 10% 5%,
+      rgba(59, 130, 246, 0.08),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      rgba(16, 185, 129, 0.07),
+      transparent 30%
+    ),
+    var(--ifm-background-color);
 }
 
-.heroContainer {
-    margin: 5em 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  padding: 95px 20px 90px;
 }
 
-.tagline {
-    font-size: 1.5em;
-    color: var(--ifm-color-content-secondary);
+.heroInner {
+  max-width: 1120px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+
+  align-items: center;
+
+  gap: 70px;
 }
 
-.codePrompt {
-    font-size: 1.2em;
-    color: var(--text-color-alt);
-    margin-bottom: 0.25em;
-    text-align: center;
-    margin-top: 0.5em;
+.hello {
+  margin-bottom: 15px;
+
+  color: var(--ifm-color-primary);
+
+  font-size: 15px;
+  font-weight: 700;
 }
 
-.random {
-    text-decoration: underline;
-    cursor: pointer;
-    user-select: none;
+.heroText h1 {
+  margin: 0;
+
+  font-size: clamp(50px, 7vw, 78px);
+
+  line-height: 1;
+
+  letter-spacing: -3px;
+}
+
+.heroText p {
+  max-width: 650px;
+
+  margin: 28px 0 0;
+
+  color: var(--ifm-color-emphasis-700);
+
+  font-size: 18px;
+
+  line-height: 1.8;
+}
+
+.heroActions {
+  display: flex;
+
+  gap: 12px;
+
+  margin-top: 32px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  min-height: 48px;
+
+  padding: 0 22px;
+
+  border-radius: 12px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.primaryButton {
+  color: white;
+
+  background: var(--ifm-color-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.primaryButton:hover {
+  color: white;
+
+  transform: translateY(-2px);
+
+  text-decoration: none;
+}
+
+.secondaryButton {
+  color: var(--ifm-font-color-base);
+
+  border: 1px solid var(--ifm-color-emphasis-300);
+
+  background: var(--ifm-background-surface-color);
+}
+
+.secondaryButton:hover {
+  color: var(--ifm-color-primary);
+
+  border-color: var(--ifm-color-primary);
+
+  text-decoration: none;
+}
+
+
+/* =========================
+   HERO CODE
+========================= */
+
+.heroCard {
+  overflow: hidden;
+
+  border-radius: 18px;
+
+  background: #111827;
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.18);
+}
+
+.heroCardTop {
+  display: flex;
+
+  gap: 7px;
+
+  padding: 14px 16px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.heroCardTop span {
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background: #64748b;
+}
+
+.heroCode {
+  padding: 28px;
+
+  color: #d1d5db;
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 14px;
+
+  line-height: 2;
+}
+
+.codeBlue {
+  color: #60a5fa;
+}
+
+.codeWhite {
+  color: #f8fafc;
+}
+
+.codeGreen {
+  color: #86efac;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+  max-width: 1120px;
+
+  margin: auto;
+
+  padding:
+    70px 20px;
+}
+
+.sectionHeading {
+  margin-bottom: 28px;
+}
+
+.sectionHeadingRow {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  margin-bottom: 28px;
+}
+
+.label {
+  margin-bottom: 8px;
+
+  color: var(--ifm-color-primary);
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.5px;
+}
+
+.section h2,
+.pythonSection h2 {
+  margin: 0 0 8px;
+
+  font-size: 34px;
+
+  letter-spacing: -0.8px;
+}
+
+.sectionHeading p {
+  margin: 0;
+
+  color: var(--ifm-color-emphasis-700);
+}
+
+
+/* =========================
+   CATEGORIES
+========================= */
+
+.categoryGrid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 16px;
+}
+
+.categoryCard {
+  position: relative;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 15px;
+
+  padding: 22px;
+
+  border:
+    1px solid
+    var(--ifm-color-emphasis-200);
+
+  border-radius: 16px;
+
+  background:
+    var(--ifm-background-surface-color);
+
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.categoryCard:hover {
+  transform: translateY(-4px);
+
+  border-color:
+    var(--ifm-color-primary);
+
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.07);
+
+  text-decoration: none;
+}
+
+.categoryIcon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 13px;
+
+  background:
+    var(--ifm-color-emphasis-100);
+
+  font-size: 23px;
+}
+
+.categoryCard h3 {
+  margin: 2px 0 7px;
+
+  color: var(--ifm-heading-color);
+
+  font-size: 17px;
+}
+
+.categoryCard p {
+  margin: 0;
+
+  color: var(--ifm-color-emphasis-700);
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+.arrow {
+  position: absolute;
+
+  right: 18px;
+  bottom: 18px;
+
+  color: var(--ifm-color-primary);
+
+  opacity: 0;
+
+  transition: opacity 0.2s ease;
+}
+
+.categoryCard:hover .arrow {
+  opacity: 1;
+}
+
+
+/* =========================
+   POSTS
+========================= */
+
+.postGrid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.postCard {
+  display: block;
+
+  padding: 25px;
+
+  border:
+    1px solid
+    var(--ifm-color-emphasis-200);
+
+  border-radius: 18px;
+
+  background:
+    var(--ifm-background-surface-color);
+
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.postCard:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.08);
+
+  text-decoration: none;
+}
+
+.postIcon {
+  margin-bottom: 18px;
+
+  font-size: 30px;
+}
+
+.postCategory {
+  margin-bottom: 8px;
+
+  color: var(--ifm-color-primary);
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+}
+
+.postCard h3 {
+  margin: 0 0 10px;
+
+  color: var(--ifm-heading-color);
+
+  font-size: 20px;
+}
+
+.postCard p {
+  margin: 0 0 20px;
+
+  color: var(--ifm-color-emphasis-700);
+
+  line-height: 1.7;
+}
+
+.readMore {
+  color: var(--ifm-color-primary);
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.viewAll {
+  color: var(--ifm-color-primary);
+
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+
+/* =========================
+   PYTHON
+========================= */
+
+.pythonSection {
+  max-width: 1120px;
+
+  margin: 50px auto 80px;
+
+  padding: 50px 20px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(59, 130, 246, 0.08),
+      rgba(16, 185, 129, 0.06)
+    );
+}
+
+.pythonHeader {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  margin-bottom: 25px;
+}
+
+.pythonHeader p {
+  max-width: 680px;
+
+  margin: 0;
+
+  color: var(--ifm-color-emphasis-700);
+
+  line-height: 1.7;
+}
+
+.pythonLink {
+  flex-shrink: 0;
+
+  color: var(--ifm-color-primary);
+
+  font-weight: 700;
+
+  text-decoration: none;
 }
 
 .codeEditorWrapper {
-    width: 72ch;
-    max-width: 100%;
-    margin-top: 1rem;
+  overflow: hidden;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (max-width: 996px) {
-    h1 {
-        font-size: 2em;
-        margin: 0;
-    }
 
-    .heroContainer {
-        margin: 2em 1.5em;
-    }
+/* =========================
+   PROJECTS
+========================= */
 
-    .tagline {
-        font-size: 1em;
-    }
+.projectGrid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 16px;
+}
+
+.projectCard {
+  display: flex;
+
+  gap: 15px;
+
+  padding: 22px;
+
+  border:
+    1px solid
+    var(--ifm-color-emphasis-200);
+
+  border-radius: 16px;
+
+  background:
+    var(--ifm-background-surface-color);
+}
+
+.projectCard > span {
+  font-size: 27px;
+}
+
+.projectCard h3 {
+  margin: 0 0 7px;
+
+  font-size: 17px;
+}
+
+.projectCard p {
+  margin: 0;
+
+  color: var(--ifm-color-emphasis-700);
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================
+   BOTTOM
+========================= */
+
+.bottom {
+  padding:
+    100px 20px;
+
+  text-align: center;
+
+  border-top:
+    1px solid
+    var(--ifm-color-emphasis-200);
+}
+
+.bottom h2 {
+  max-width: 700px;
+
+  margin:
+    0 auto 12px;
+
+  font-size: 38px;
+
+  letter-spacing: -1px;
+}
+
+.bottom p {
+  margin-bottom: 28px;
+
+  color: var(--ifm-color-emphasis-700);
+
+  font-size: 17px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 996px) {
+
+  .heroInner {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+  .heroText {
+    text-align: center;
+  }
+
+  .heroText p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heroActions {
+    justify-content: center;
+  }
+
+  .categoryGrid,
+  .postGrid,
+  .projectGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pythonHeader {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .hero {
+    padding:
+      60px 16px
+      50px;
+  }
+
+  .heroText h1 {
+    font-size: 52px;
+  }
+
+  .heroText p {
+    font-size: 16px;
+  }
+
+  .heroActions {
+    flex-direction: column;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+  }
+
+  .section {
+    padding:
+      50px 16px;
+  }
+
+  .categoryGrid,
+  .postGrid,
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .sectionHeadingRow {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .section h2,
+  .pythonSection h2 {
+    font-size: 29px;
+  }
+
+  .pythonSection {
+    margin:
+      20px 10px
+      50px;
+
+    padding:
+      35px 10px;
+  }
+
+  .pythonHeader {
+    padding: 0 6px;
+  }
+
+  .bottom {
+    padding:
+      70px 16px;
+  }
+
+  .bottom h2 {
+    font-size: 30px;
+  }
+
 }

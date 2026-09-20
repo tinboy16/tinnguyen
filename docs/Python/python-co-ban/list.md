@@ -1,8 +1,10 @@
-
-# 📋 List trong Python
-
+---
+title: Danh sách (List) trong Python
+sidebar_position: 6
 ---
 
+# 📋 List trong Python
+---
 ## 📘 Giới thiệu
 
 Cấu trúc dữ liệu cơ bản nhất trong Python là **sequence** (dãy). Mỗi phần tử trong dãy được gán một số gọi là **chỉ mục (index)**, bắt đầu từ `0`.

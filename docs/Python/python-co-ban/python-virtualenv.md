@@ -1,3 +1,8 @@
+---
+title: Môi trường ảo (Virtual Environment) trong Python
+sidebar_position: 16
+---
+
 # Virtual Environment trong Python
 ---
 ## Tổng quan

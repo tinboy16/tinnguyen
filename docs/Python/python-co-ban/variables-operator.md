@@ -1,3 +1,8 @@
+---
+title: Biến, kiểu dữ liệu và toán tử
+sidebar_position: 3
+---
+
 # 🧮 Kiểu dữ liệu và toán tử trong Python
 
 ## 🧾 Toán tử

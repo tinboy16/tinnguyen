@@ -1,3 +1,7 @@
+---
+title: Vòng lặp trong Python
+sidebar_position: 10
+---
 
 # 🔁 Vòng lặp trong Python
 

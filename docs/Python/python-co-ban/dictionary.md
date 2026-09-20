@@ -1,3 +1,7 @@
+---
+title: Dictionary trong Python
+sidebar_position: 8
+---
 
 # 📘 Dictionary
 

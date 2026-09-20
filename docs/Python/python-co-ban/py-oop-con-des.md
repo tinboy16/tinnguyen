@@ -1,3 +1,8 @@
+---
+title: Constructor và Destructor trong Python
+sidebar_position: 15
+---
+
 # Constructor và Destructor trong Python
 ## 1. Phương thức khởi tạo - constructor
 

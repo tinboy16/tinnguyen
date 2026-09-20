@@ -1,3 +1,7 @@
+---
+title: Kiểu số trong Python
+sidebar_position: 5
+---
 
 # 🔢 Number trong Python
 

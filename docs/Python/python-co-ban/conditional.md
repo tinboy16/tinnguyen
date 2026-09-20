@@ -1,3 +1,7 @@
+---
+title: Câu lệnh điều kiện trong Python
+sidebar_position: 9
+---
 
 # 📘 Câu lệnh điều kiện trong Python
 

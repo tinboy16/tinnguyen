@@ -1,3 +1,7 @@
+---
+title: Hàm trong Python
+sidebar_position: 11
+---
 
 # 🧩 Hàm trong Python
 
