@@ -6,10 +6,9 @@ import CodeEditor from '@site/src/components/CodeEditor';
 import styles from './index.module.css';
 
 const code = `def gioi_thieu():
-
     print("Xin chào các bạn!")
-    print("Mình đang học lập trình Python.")
-    print("Python thật thú vị!")
+    print("Mình là giáo viên Tin học.")
+    print("Mình đang học và thực hành Python.")
 
 
 gioi_thieu()
@@ -19,37 +18,43 @@ const categories = [
     {
         icon: '🐍',
         title: 'Python',
-        description: 'Lập trình Python từ cơ bản đến thực hành.',
-        link: '/docs/Python/python-co-ban/python-overview',
+        description:
+            'Học Python từ cơ bản đến nâng cao, kèm ví dụ và các dự án thực hành.',
+        link: '/docs/Python',
     },
     {
         icon: '🌐',
         title: 'Web Development',
-        description: 'Website, frontend, backend và những dự án web.',
-        link: '/docs/web',
+        description:
+            'Kiến thức và kinh nghiệm xây dựng website, frontend, backend và hệ thống web.',
+        link: '/docs/Web',
     },
     {
         icon: '🎓',
         title: 'Giáo dục',
-        description: 'Tài liệu, bài giảng và những nội dung phục vụ dạy học.',
+        description:
+            'Tài liệu và nội dung phục vụ giảng dạy Tin học và các hoạt động học tập.',
         link: '/docs/giao-duc',
     },
     {
         icon: '🔧',
         title: 'STEM & Công nghệ',
-        description: 'Arduino, điện tử, IoT và các dự án thực hành.',
-        link: '/docs/stem',
+        description:
+            'Arduino, điện tử, IoT và những dự án công nghệ thực hành.',
+        link: '/docs/STEM',
     },
     {
         icon: '💡',
         title: 'Kinh nghiệm',
-        description: 'Những ghi chú và kinh nghiệm trong quá trình làm việc.',
+        description:
+            'Những ghi chú, kinh nghiệm học tập, giảng dạy và làm dự án.',
         link: '/docs/kinh-nghiem',
     },
     {
         icon: '🚀',
         title: 'Dự án',
-        description: 'Các dự án cá nhân đang thực hiện và phát triển.',
+        description:
+            'Các dự án cá nhân về lập trình, điện tử, STEM và công nghệ.',
         link: '/docs/du-an',
     },
 ];
@@ -60,8 +65,8 @@ const posts = [
         icon: '🐍',
         title: 'Làm quen với lập trình Python',
         description:
-            'Những kiến thức đầu tiên để bắt đầu viết chương trình Python.',
-        link: '/docs/python',
+            'Những kiến thức đầu tiên để bắt đầu học và viết chương trình Python.',
+        link: '/docs/Python/python-co-ban/python-overview',
     },
     {
         category: 'Web',
@@ -74,18 +79,18 @@ const posts = [
     {
         category: 'STEM',
         icon: '🔧',
-        title: 'Một số dự án STEM thực hành',
+        title: 'Các dự án STEM thực hành',
         description:
-            'Tổng hợp những ý tưởng và dự án công nghệ có thể áp dụng trong giáo dục.',
-        link: '/docs/stem',
+            'Những ý tưởng và dự án STEM kết hợp Tin học, điện tử và công nghệ.',
+        link: '/docs/STEM',
     },
 ];
 
 export default function Home() {
     return (
         <Layout
-            title="Tín Nguyễn"
-            description="Blog cá nhân về lập trình, giáo dục, công nghệ và các dự án thực hành."
+            title="Nguyễn Thương Tín | Giáo viên Tin học, Python và STEM"
+            description="Website cá nhân của Nguyễn Thương Tín – giáo viên Tin học tại Bảo Lộc, Lâm Đồng. Chia sẻ kiến thức Python, lập trình, Web, Arduino, STEM, điện tử và các dự án công nghệ."
         >
             <main className={styles.home}>
 
@@ -101,13 +106,14 @@ export default function Home() {
                             </div>
 
                             <h1>
-                                Tín Nguyễn
+                                Nguyễn Thương Tín
                             </h1>
 
                             <p>
-                                Đây là nơi mình chia sẻ những bài viết,
-                                tài liệu, kinh nghiệm và các dự án trong
-                                quá trình học tập, giảng dạy và làm công nghệ.
+                                Mình là <strong>giáo viên Tin học</strong>.
+                                Đây là nơi mình chia sẻ kiến thức,
+                                tài liệu, kinh nghiệm và các dự án về
+                                <strong> Python, Web, Arduino, STEM và công nghệ</strong>.
                             </p>
 
                             <div className={styles.heroActions}>
@@ -123,7 +129,7 @@ export default function Home() {
                                     className={styles.secondaryButton}
                                     to="/docs/intro"
                                 >
-                                    Xem tài liệu
+                                    Giới thiệu
                                 </Link>
                             </div>
 
@@ -142,35 +148,48 @@ export default function Home() {
                                 <span className={styles.codeWhite}>website</span>{' '}
                                 = {'{'}
                                 <br />
+
                                 &nbsp;&nbsp;name:{' '}
                                 <span className={styles.codeGreen}>
-                                    "Tín Nguyễn"
+                                    "Nguyễn Thương Tín"
                                 </span>
                                 ,
                                 <br />
+
+                                &nbsp;&nbsp;role:{' '}
+                                <span className={styles.codeGreen}>
+                                    "Giáo viên Tin học"
+                                </span>
+                                ,
+                                <br />
+
                                 &nbsp;&nbsp;topics: [
                                 <br />
+
                                 &nbsp;&nbsp;&nbsp;&nbsp;
                                 <span className={styles.codeGreen}>
-                                    "Code"
+                                    "Python"
                                 </span>
                                 ,
                                 <span className={styles.codeGreen}>
-                                    "Education"
+                                    "STEM"
                                 </span>
                                 ,
                                 <br />
+
                                 &nbsp;&nbsp;&nbsp;&nbsp;
                                 <span className={styles.codeGreen}>
-                                    "Technology"
+                                    "Arduino"
                                 </span>
                                 ,
                                 <span className={styles.codeGreen}>
-                                    "Projects"
+                                    "Web"
                                 </span>
                                 <br />
+
                                 &nbsp;&nbsp;]
                                 <br />
+
                                 {'}'};
                             </div>
 
@@ -185,17 +204,19 @@ export default function Home() {
                 <section className={styles.section}>
                     <div className={styles.sectionHeading}>
                         <div>
+
                             <div className={styles.label}>
                                 KHÁM PHÁ
                             </div>
 
                             <h2>
-                                Nội dung trên blog
+                                Kiến thức và tài liệu
                             </h2>
 
                             <p>
-                                Những chủ đề mình thường xuyên viết và chia sẻ.
+                                Các chủ đề mình học tập, giảng dạy và thực hành.
                             </p>
+
                         </div>
                     </div>
 
@@ -206,6 +227,7 @@ export default function Home() {
                                 to={item.link}
                                 className={styles.categoryCard}
                             >
+
                                 <div className={styles.categoryIcon}>
                                     {item.icon}
                                 </div>
@@ -221,6 +243,7 @@ export default function Home() {
                                 <span className={styles.arrow}>
                                     →
                                 </span>
+
                             </Link>
                         ))}
                     </div>
@@ -230,16 +253,19 @@ export default function Home() {
                 {/* POSTS */}
 
                 <section className={styles.section}>
+
                     <div className={styles.sectionHeadingRow}>
 
                         <div>
+
                             <div className={styles.label}>
                                 BÀI VIẾT
                             </div>
 
                             <h2>
-                                Một số nội dung nổi bật
+                                Nội dung nổi bật
                             </h2>
+
                         </div>
 
                         <Link
@@ -259,6 +285,7 @@ export default function Home() {
                                 to={post.link}
                                 className={styles.postCard}
                             >
+
                                 <div className={styles.postIcon}>
                                     {post.icon}
                                 </div>
@@ -278,10 +305,12 @@ export default function Home() {
                                 <span className={styles.readMore}>
                                     Đọc tiếp →
                                 </span>
+
                             </Link>
                         ))}
 
                     </div>
+
                 </section>
 
 
@@ -298,20 +327,19 @@ export default function Home() {
                             </div>
 
                             <h2>
-                                Thử một chút Python 🐍
+                                Học Python qua thực hành 🐍
                             </h2>
 
                             <p>
-                                Một ví dụ nhỏ từ những tài liệu lập trình
-                                trên blog. Bạn có thể trực tiếp chỉnh sửa
-                                và chạy thử đoạn code bên dưới.
+                                Thử trực tiếp một đoạn code Python đơn giản
+                                và khám phá các tài liệu lập trình trên website.
                             </p>
 
                         </div>
 
                         <Link
                             className={styles.pythonLink}
-                            to="/docs/python"
+                            to="/docs/Python"
                         >
                             Xem tài liệu Python →
                         </Link>
@@ -335,17 +363,19 @@ export default function Home() {
                     <div className={styles.sectionHeading}>
 
                         <div>
+
                             <div className={styles.label}>
-                                ĐANG LÀM
+                                DỰ ÁN
                             </div>
 
                             <h2>
-                                Một vài dự án
+                                Các dự án đang thực hiện
                             </h2>
 
                             <p>
-                                Những thứ mình đang xây dựng và thử nghiệm.
+                                Những dự án mình đang xây dựng và thử nghiệm.
                             </p>
+
                         </div>
 
                     </div>
@@ -354,33 +384,47 @@ export default function Home() {
 
                         <div className={styles.projectCard}>
                             <span>💻</span>
+
                             <div>
-                                <h3>Web Development</h3>
+                                <h3>
+                                    Website & Lập trình
+                                </h3>
+
                                 <p>
-                                    Xây dựng và phát triển các website,
-                                    hệ thống quản lý và công cụ web.
+                                    Các dự án website và ứng dụng phục vụ
+                                    việc học tập và thực hành lập trình.
                                 </p>
                             </div>
                         </div>
 
+
                         <div className={styles.projectCard}>
-                            <span>🎓</span>
+                            <span>🔬</span>
+
                             <div>
-                                <h3>Công nghệ giáo dục</h3>
+                                <h3>
+                                    STEM & Arduino
+                                </h3>
+
                                 <p>
-                                    Những công cụ và dự án hỗ trợ việc
-                                    dạy học và học tập.
+                                    Các mô hình STEM, Arduino, điện tử
+                                    và những dự án thực hành.
                                 </p>
                             </div>
                         </div>
+
 
                         <div className={styles.projectCard}>
                             <span>⚙️</span>
+
                             <div>
-                                <h3>Thử nghiệm công nghệ</h3>
+                                <h3>
+                                    Công nghệ
+                                </h3>
+
                                 <p>
-                                    Docker, Linux, IoT, AI và những công
-                                    nghệ mình đang tìm hiểu.
+                                    Linux, Docker, IoT và những công nghệ
+                                    mình đang tìm hiểu và thực hành.
                                 </p>
                             </div>
                         </div>
@@ -393,28 +437,33 @@ export default function Home() {
                 {/* FOOTER CTA */}
 
                 <section className={styles.bottom}>
-    <div>
-        <div className={styles.bottomLabel}>
-            CẢM ƠN BẠN ĐÃ GHÉ THĂM
-        </div>
 
-        <h2>
-            Cùng học hỏi và xây dựng điều gì đó thú vị.
-        </h2>
+                    <div>
 
-        <p>
-            Khám phá các bài viết và tài liệu trên blog.
-        </p>
+                        <div className={styles.bottomLabel}>
+                            CẢM ƠN BẠN ĐÃ GHÉ THĂM
+                        </div>
 
-        <Link
-            className={styles.primaryButton}
-            to="/blog"
-        >
-            Khám phá blog
-            <span>→</span>
-        </Link>
-    </div>
-</section>
+                        <h2>
+                            Cùng học hỏi và khám phá công nghệ.
+                        </h2>
+
+                        <p>
+                            Khám phá các bài viết, tài liệu và dự án
+                            trên website.
+                        </p>
+
+                        <Link
+                            className={styles.primaryButton}
+                            to="/blog"
+                        >
+                            Khám phá blog
+                            <span>→</span>
+                        </Link>
+
+                    </div>
+
+                </section>
 
             </main>
         </Layout>
