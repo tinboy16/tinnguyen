@@ -1,6 +1,4 @@
-
 # Triển khai Django với MySQL sử dụng Docker
----
 
 ## Chuẩn bị
 1. **Cài đặt Docker và Docker Compose**: Đảm bảo bạn đã cài đặt Docker và Docker Compose trên máy tính của mình.

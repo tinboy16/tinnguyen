@@ -720,3 +720,12 @@
   }
 
 }
+.bottomLabel {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.6;
+    color: var(--ifm-color-primary);
+    font-family: Arial, "Segoe UI", sans-serif;
+    margin-bottom: 12px;
+}

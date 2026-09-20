@@ -393,28 +393,28 @@ export default function Home() {
                 {/* FOOTER CTA */}
 
                 <section className={styles.bottom}>
-                    <div>
-                        <div className={styles.label}>
-                            CẢM ƠN BẠN ĐÃ GHÉ THĂM
-                        </div>
+    <div>
+        <div className={styles.bottomLabel}>
+            CẢM ƠN BẠN ĐÃ GHÉ THĂM
+        </div>
 
-                        <h2>
-                            Cùng học hỏi và xây dựng điều gì đó thú vị.
-                        </h2>
+        <h2>
+            Cùng học hỏi và xây dựng điều gì đó thú vị.
+        </h2>
 
-                        <p>
-                            Khám phá các bài viết và tài liệu trên blog.
-                        </p>
+        <p>
+            Khám phá các bài viết và tài liệu trên blog.
+        </p>
 
-                        <Link
-                            className={styles.primaryButton}
-                            to="/blog"
-                        >
-                            Khám phá blog
-                            <span>→</span>
-                        </Link>
-                    </div>
-                </section>
+        <Link
+            className={styles.primaryButton}
+            to="/blog"
+        >
+            Khám phá blog
+            <span>→</span>
+        </Link>
+    </div>
+</section>
 
             </main>
         </Layout>
