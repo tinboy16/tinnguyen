@@ -42,8 +42,8 @@ Xin chào! Tôi là Nguyễn Thương Tín, Sở thích thiết kế mạch đi�
 ## Dự Án Cá Nhân
 
 - **Dự Án 1:** Hệ thống tưới cây tự động 
-- **Dự Án 2:** Hệ thống vườn ươm
-
+- **Dự Án 2:** Hệ thống vườnnpm run ươm
+- **Dự Án 3:** WebSite Đội đặc nhiệm nhí
 ## Liên Kết Xã Hội
 
 - [LinkedIn](https://www.linkedin.com/in/t%C3%ADn-nguy%E1%BB%85n-th%C6%B0%C6%A1ng-126667202/)
