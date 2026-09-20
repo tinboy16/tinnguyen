@@ -1,52 +1,108 @@
 ---
 sidebar_position: 1
+title: Giới thiệu
+slug: /intro
 ---
 
-# 💼 Giới Thiệu Cá Nhân
+# Giới thiệu
 
-## Thông Tin Cơ Bản
+Xin chào, mình là **Nguyễn Thương Tín**.
 
-- **Họ và Tên:** Nguyễn Thương Tín
-- **Ngày Sinh:** 01/06/2002
-- **Địa Chỉ:** Thành phố Bảo Lộc, Tỉnh Lâm Đồng
-- **Email:** thuongtin1602@gmail.com
-- **Số Điện Thoại:** 0792413743
+Mình là **giáo viên Tin học** tại Bảo Lộc, Lâm Đồng. Mình yêu thích lập trình, thiết kế mạch điện tử và các dự án STEM.
 
-## Giới Thiệu
+Website này là nơi mình lưu lại những kiến thức, tài liệu, kinh nghiệm và các dự án trong quá trình **giảng dạy, học tập và thực hành công nghệ**.
 
-Xin chào! Tôi là Nguyễn Thương Tín, Sở thích thiết kế mạch điện tử. Trong thời gian rảnh rỗi, tôi thích nghe nhạc, đi dạo.
 
-## Học Vấn
+## 👤 Thông tin cá nhân
 
-- **Trình Độ Học Vấn:** Trung Học Phổ Thông
-- **Ngành Học Chính:** Sư Phạm Tin Học
-- **Các Khóa Học Hoặc Chứng Chỉ Khác:** 
-    Khóa học blockchain anyone
+- **Họ và tên:** Nguyễn Thương Tín
+- **Ngày sinh:** 01/06/2002
+- **Địa chỉ:** Bảo Lộc, Lâm Đồng
+- **Email:** [thuongtin1602@gmail.com](mailto:thuongtin1602@gmail.com)
+- **Nghề nghiệp:** Giáo viên Tin học
 
-## Kinh Nghiệm Làm Việc
+
+## 🎓 Học vấn
+
+- **Ngành:** Sư phạm Tin học
+- **Khóa học:** Blockchain Anyone
+
+
+## 💼 Kinh nghiệm
 
 ### VNBnode
-- **Vị Trí:** Admin, web developer
-- **Thời Gian Làm Việc:** Đang làm
-- **Mô Tả Công Việc:** Xây dựng quản lý website
+
+- **Vị trí:** Admin, Web Developer
+- **Thời gian:** Đang làm
+- **Công việc:** Xây dựng và quản lý website.
 
 
-## Kỹ Năng
+## 🛠️ Kỹ năng
 
-- **Ngôn Ngữ Lập Trình:** python, C++, C#, js
-- **Kỹ Năng Kỹ Thuật:** Linux, Server, Collaboration, Communication, NetWork, Arduino, Validator
-- **Ngoại Ngữ:** Tiếng Anh
+**Lập trình:**
 
-## Dự Án Cá Nhân
+Python, C++, C#, JavaScript
 
-- **Dự Án 1:** Hệ thống tưới cây tự động 
-- **Dự Án 2:** Hệ thống vườn ươm
-- **Dự Án 3:** WebSite Đội đặc nhiệm nhí
+**Công nghệ:**
 
-## Liên Kết Xã Hội
+Linux, Server, Network, Arduino, Validator, Docker, Database, API
 
-- [LinkedIn](https://www.linkedin.com/in/t%C3%ADn-nguy%E1%BB%85n-th%C6%B0%C6%A1ng-126667202/)
+**Web:**
+
+HTML, CSS, JavaScript, PHP, WordPress, NukeViet, Docusaurus, Astro
+
+**Ngoại ngữ:**
+
+Tiếng Anh
+
+
+
+## 🚀 Dự án
+
+- 🌱 **Hệ thống tưới cây tự động**
+- 🌿 **Hệ thống vườn ươm**
+- 🛡️ **Website Đội Đặc Nhiệm Nhí**
+- 🔬 **Các dự án STEM và Arduino**
+
+
+
+## 📚 Nội dung trên Website
+
+### 🐍 Python
+
+Kiến thức Python từ cơ bản đến nâng cao và các dự án thực hành.
+
+[Khám phá Python →](/docs/python)
+
+### 🌐 Web Development
+
+Những kiến thức và kinh nghiệm mình có được trong quá trình học tập và thực hành Web.
+
+### 🎓 Giáo dục
+
+Tài liệu và nội dung phục vụ công việc giảng dạy Tin học.
+
+### 🔬 STEM & Công nghệ
+
+Arduino, điện tử, IoT và các dự án STEM.
+
+[Khám phá STEM →](/docs/stem)
+
+### 🚀 Dự án
+
+Các dự án cá nhân mình đã và đang thực hiện.
+
+
+
+## 🔗 Liên kết
+
 - [GitHub](https://github.com/tinboy16)
 - [Facebook](https://www.facebook.com/NTTinnn/)
+- [LinkedIn](https://www.linkedin.com/in/t%C3%ADn-nguy%E1%BB%85n-th%C6%B0%C6%A1ng-126667202/)
 
-Nếu bạn quan tâm đến hợp tác hoặc muốn biết thêm về tôi, đừng ngần ngại [liên hệ với tôi](mailto:thuongtin1602@gmail.com). Rất vui được làm quen với bạn!
+
+## 📬 Liên hệ
+
+**Email:** [thuongtin1602@gmail.com](mailto:thuongtin1602@gmail.com)
+
+Rất vui được làm quen và trao đổi cùng bạn!

@@ -74,8 +74,7 @@ Các dự án có thể kết hợp nhiều lĩnh vực như:
 
 Dự án STEM 2026 do học sinh thực hiện, tìm hiểu về năng lượng gió và xây dựng mô hình **Ngôi Nhà Năng Lượng Gió**.
 
-[ Xem dự án →](./tieu-hoc/ngoi-nha-nang-luong-gio)
-
+[ Xem dự án →](/docs/stem/tieu-hoc/ngoi-nha-nang-luong-gio)
 ---
 
 ## Học qua thực hành

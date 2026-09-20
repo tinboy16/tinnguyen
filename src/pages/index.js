@@ -69,7 +69,7 @@ const posts = [
         title: 'Xây dựng website với Docusaurus',
         description:
             'Ghi chú và kinh nghiệm xây dựng website tài liệu bằng Docusaurus.',
-        link: '/docs',
+        link: '/docs/intro',
     },
     {
         category: 'STEM',
